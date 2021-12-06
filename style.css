@@ -47,3 +47,42 @@
 .textDecorationNone {
     text-decoration: none;
 }
+
+.fsize2 {
+    font-size: 1.5rem;
+}
+
+.menuIcon {
+    display: none;
+}
+
+.menuName {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .mainMenu {
+        display: none;
+    }
+    .menuIcon {
+        display: block;
+    }
+}
+
+@media (max-width: 640px) {
+    .displayBlockMobile {
+        display: block;
+    }
+    .mb1Mobile {
+        margin-bottom: 1rem;
+    }
+    .textAlignCenterMobile {
+        text-align: center;
+    }
+    .menuIcon {
+        display: none;
+    }
+    .menuName {
+        display: block;
+    }
+}
