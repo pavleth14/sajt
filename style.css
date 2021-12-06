@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.bgBlack {
+    background-color: black;
+}
+
+.textWhite {
+    color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+
+.justifyCenter {
+    justify-content: space-between;
+}
+
+.maxWidth {
+    max-width: 1300px;
+}
+
+.mAuto {
+    margin: 0 auto;
+}
+
+.borderRed {
+    border: 1px solid red;
+}
+
+.p2 {
+    padding: 2rem;
+}
+
+.pl2 {
+    padding-left: 2rem;
+}
+
+.textDecorationNone {
+    text-decoration: none;
+}
