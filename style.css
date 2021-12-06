@@ -7,6 +7,10 @@ body {
     background-color: #eee;
 }
 
+.w100 {
+    width: 100%;
+}
+
 .bgBlack {
     background-color: black;
 }
@@ -27,6 +31,8 @@ body {
 .spaceBetween {
     justify-content: space-between;
 }
+
+
 
 .maxWidth {
     max-width: 1300px;
@@ -81,7 +87,7 @@ body {
 
 
 
-                                /*  ************************************** Section *******************************************/
+                                /*  ************************************** Section 1 *******************************************/
 
     .cardImg {
         width: 300px;
@@ -100,6 +106,29 @@ body {
         margin-bottom: 1rem;
     }
 
+    .borderRadius40px {
+        border-radius: 40px;
+    }
+
+    .colorRed {
+        color: red;
+    }
+
+    
+
+    /* Section 2 */
+
+    .textAlignCenter {
+        text-align: center;
+    }
+
+    .mt1 {
+        margin-top: 1rem;
+    }
+    .mb1 {
+        margin-bottom: 1rem;
+    }
+
 
 
 @media (max-width: 1024px) {
@@ -114,6 +143,12 @@ body {
     }
     .mb2Tablet {
         margin-bottom: 2rem;
+    }
+    .flexDirectionColumnTablet {
+        flex-direction: column;
+    }
+    .mAutoTablet {
+        margin: 0 auto;
     }
 }
 
@@ -136,4 +171,5 @@ body {
     .mAutoMobile {
         margin: 0 auto;
     }
+    
 }
