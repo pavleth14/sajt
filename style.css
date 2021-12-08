@@ -193,6 +193,10 @@ body {
     .borderGreen {
         border: 1px solid green;
     }
+
+    .w50 {
+        width: 50%;
+    }
     
 
 
@@ -227,7 +231,8 @@ body {
     }
     .width50Tablet {
         width: 47%;
-    }    
+    }
+    
     
 }
 
