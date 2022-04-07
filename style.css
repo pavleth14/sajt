@@ -27,9 +27,20 @@ body {
     align-items: center;
 }
 
+.alignBetween {
+    align-items: space-between;
+}
+
+.justifyCenter {
+    justify-content: center;
+}
 
 .spaceBetween {
     justify-content: space-between;
+}
+
+.flex-column {
+    flex-direction: column;
 }
 
 .pt1 {
@@ -46,6 +57,10 @@ body {
 
 .borderRed {
     border: 1px solid red;
+}
+
+.p1 {
+    padding: 1rem;
 }
 
 .p2 {
